@@ -1,0 +1,24 @@
+* {
+    
+    box-sizing: border-box;
+  }
+header{
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+input{
+    width: 50%;
+    padding: 1%;
+}
+
+main{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 200px);
+    margin:2% auto;
+    grid-gap: 10px 20px;
+}
