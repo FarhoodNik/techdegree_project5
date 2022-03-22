@@ -16,9 +16,10 @@ input{
 
 main{
     display: grid;
-    max-width: 1000px;
+    max-width: 1050px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(3, 200px);
     margin:2% auto;
+    padding-left: 5%;
     grid-gap: 10px 20px;
 }
